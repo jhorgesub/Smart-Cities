@@ -4,11 +4,11 @@
 
 {% for i in posts %}
 
-<br>
-<li><h1>{{i.titulo}}</h1></li>
-<li>{{i.texto}}</li>
-<img src="{{ i.imagen.url }}"> 
-<li>{{i.categoria}}</li>
+    <br>
+    <li><h1>{{i.titulo}}</h1></li>
+    <li>{{i.texto}}</li>
+    <img src="{{ i.imagen.url }}"> 
+    <li>{{i.categoria}}</li>
 
 {% empty %}
 <h1>No hay registros</h1>
